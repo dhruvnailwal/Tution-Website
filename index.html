@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future Achievers</title>
+
+    SDKs (MUST stay here)
+    <script src="/_sdk/element_sdk.js"></script>
+    <script src="/_sdk/data_sdk.js"></script>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      @view-transition {
+        navigation: auto;
+      }
+    </style>
+  </head>
+
+  <body class="h-full">
+    <div id="app" class="w-full h-full overflow-auto">
+      <!-- Hero Section with Trust Signals -->
+      <section
+        id="hero"
+        class="gradient-bg section-spacing text-white"
+        style="position: relative"
+      >
+        <div
+          class="max-w-5xl mx-auto text-center"
+          style="position: relative; z-index: 1"
+        >
+          <div class="mb-8 inline-block">
+            <div style="position: relative; display: inline-block">
+              <svg
+                class="w-28 h-28 mx-auto"
+                viewbox="0 0 120 120"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M60 5 L95 27.5 L95 72.5 L60 95 L25 72.5 L25 27.5 Z"
+                  fill="rgba(255,255,255,0.15)"
+                  stroke="white"
+                  stroke-width="2.5"
+                />
+                <circle
+                  cx="60"
+                  cy="50"
+                  r="18"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="2"
+                  opacity="0.4"
+                />
+                <circle cx="60" cy="50" r="12" fill="white" opacity="0.9" />
+                <path
+                  d="M 45 40 L 40 50 L 45 60"
+                  stroke="white"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M 75 40 L 80 50 L 75 60"
+                  stroke="white"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle cx="35" cy="35" r="2" fill="white" opacity="0.7" />
+                <circle cx="85" cy="35" r="2" fill="white" opacity="0.7" />
+                <circle cx="35" cy="65" r="2" fill="white" opacity="0.7" />
+                <circle cx="85" cy="65" r="2" fill="white" opacity="0.7" />
+                <line
+                  x1="35"
+                  y1="35"
+                  x2="45"
+                  y2="42"
+                  stroke="white"
+                  stroke-width="1.5"
+                  opacity="0.5"
+                />
+                <line
+                  x1="85"
+                  y1="35"
+                  x2="75"
+                  y2="42"
+                  stroke="white"
+                  stroke-width="1.5"
+                  opacity="0.5"
+                />
+                <line
+                  x1="35"
+                  y1="65"
+                  x2="45"
+                  y2="58"
+                  stroke="white"
+                  stroke-width="1.5"
+                  opacity="0.5"
+                />
+                <line
+                  x1="85"
+                  y1="65"
+                  x2="75"
+                  y2="58"
+                  stroke="white"
+                  stroke-width="1.5"
+                  opacity="0.5"
+                />
+                <text
+                  x="60"
+                  y="55"
+                  font-family="Arial, sans-serif"
+                  font-size="12"
+                  font-weight="bold"
+                  fill="#06b6d4"
+                  text-anchor="middle"
+                >
+                  CS
+                </text>
+                <circle cx="90" cy="20" r="5" fill="#4ade80" opacity="0.9">
+                  <animate
+                    attributename="opacity"
+                    values="0.9;0.3;0.9"
+                    dur="2s"
+                    repeatcount="indefinite"
+                  />
+                </circle>
+              </svg>
+            </div>
+          </div>
+          <div
+            class="mb-3 inline-flex items-center bg-white bg-opacity-20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold"
+          >
+            <span class="mr-2">🎓</span>
+            <span>CBSE Approved Curriculum</span>
+          </div>
+          <h1
+            id="heroHeadline"
+            class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight"
+          >
+            Senior Secondary Computer &amp; IT Tuition
+          </h1>
+          <p
+            id="heroSubheading"
+            class="text-xl md:text-2xl mb-8 opacity-90 font-light"
+          >
+            Expert Guidance for CBSE Students
+          </p>
+          <div
+            class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
+          >
+            <a
+              id="whatsappHeroBtn"
+              href="javascript:void(0)"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center bg-white text-cyan-600 font-bold px-8 py-4 rounded-xl text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-2xl"
+            >
+              <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                />
+              </svg>
+              <span>Chat to Register</span>
+            </a>
+            <a
+              href="#instructor"
+              class="inline-flex items-center bg-transparent border-2 border-white text-white font-semibold px-8 py-4 rounded-xl text-lg hover:bg-white hover:text-cyan-600 transition-all"
+            >
+              <span>Meet Your Instructor</span>
+            </a>
+          </div>
+        </div>
+        <!-- Trust Signals Marquee -->
+        <div class="trust-marquee">
+          <div class="trust-marquee-content">
+            <span class="trust-item"
+              >🎓 <span id="trustStudents">200+</span> Local Students
+              Trained</span
+            >
+            <span class="trust-item"
+              >📈 <span id="trustSuccess">95%</span> Board Success Rate</span
+            >
+            <span class="trust-item"
+              >⭐ <span id="trustExperience">10+</span> Years Experience</span
+            >
+            <span class="trust-item">🏆 Top Results in CBSE Boards</span>
+            <span class="trust-item">💯 100% Placement Guidance</span>
+            <!-- Duplicate for seamless loop -->
+            <span class="trust-item"
+              >🎓 <span id="trustStudents2">200+</span> Local Students
+              Trained</span
+            >
+            <span class="trust-item"
+              >📈 <span id="trustSuccess2">95%</span> Board Success Rate</span
+            >
+            <span class="trust-item"
+              >⭐ <span id="trustExperience2">10+</span> Years Experience</span
+            >
+            <span class="trust-item">🏆 Top Results in CBSE Boards</span>
+            <span class="trust-item">💯 100% Placement Guidance</span>
+          </div>
+        </div>
+      </section>
+      <!-- Instructor Profile Section -->
+      <section
+        id="instructor"
+        class="section-spacing bg-gradient-to-b from-white to-cyan-50"
+      >
+        <div class="max-w-5xl mx-auto">
+          <div class="text-center mb-12">
+            <div
+              class="inline-flex items-center bg-purple-100 px-4 py-2 rounded-full text-sm font-bold text-purple-700 mb-4"
+            >
+              <svg class="w-4 h-4 mr-2" fill="currentColor" viewbox="0 0 20 20">
+                <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
+              </svg>
+              MEET YOUR INSTRUCTOR
+            </div>
+            <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+              Learn from the Best
+            </h2>
+          </div>
+          <div class="bg-white rounded-2xl p-8 md:p-12 shadow-2xl mb-8">
+            <div class="grid md:grid-cols-3 gap-8 items-start">
+              <!-- Instructor Photo -->
+              <div class="flex flex-col items-center">
+                <div class="instructor-photo mb-4">👨‍🏫</div>
+                <h3
+                  id="instructorName"
+                  class="text-2xl font-bold text-gray-800 text-center"
+                >
+                  Prof. Rajesh Kumar
+                </h3>
+                <p class="text-purple-600 font-semibold text-center">
+                  Lead CS Instructor
+                </p>
+              </div>
+              <!-- Qualifications & Philosophy -->
+              <div class="md:col-span-2 space-y-6">
+                <div>
+                  <h4
+                    class="text-lg font-bold text-gray-800 mb-3 flex items-center"
+                  >
+                    <span class="text-2xl mr-2">🎓</span> Qualifications
+                  </h4>
+                  <p
+                    id="instructorQualification"
+                    class="text-gray-700 leading-relaxed"
+                  >
+                    M.Tech in Computer Science, NIT Kurukshetra | B.Tech CS, IIT
+                    Delhi
+                  </p>
+                </div>
+                <div>
+                  <h4
+                    class="text-lg font-bold text-gray-800 mb-3 flex items-center"
+                  >
+                    <span class="text-2xl mr-2">💼</span> Experience
+                  </h4>
+                  <p
+                    id="instructorExperience"
+                    class="text-gray-700 leading-relaxed"
+                  >
+                    Bsc(H) Computer Science, Acharya Narendra Dev College (Delhi
+                    University) Masters in Computer Application (MCA), DUCS
+                    (Delhi University) AIR 244 in NIMCET Examination AIR 65 in
+                    BHU Examination
+                  </p>
+                </div>
+                <div>
+                  <h4
+                    class="text-lg font-bold text-gray-800 mb-3 flex items-center"
+                  >
+                    <span class="text-2xl mr-2">💡</span> Teaching Philosophy
+                  </h4>
+                  <p
+                    id="teachingPhilosophy"
+                    class="text-gray-700 leading-relaxed italic"
+                  >
+                    "I believe in practical learning combined with strong
+                    conceptual foundation. Every student can excel in Computer
+                    Science with the right guidance and hands-on practice. My
+                    goal is not just to help you score marks, but to make you
+                    fall in love with coding!"
+                  </p>
+                </div>
+                <div class="pt-4 border-t border-gray-200">
+                  <p class="text-sm text-gray-600 flex items-center gap-2">
+                    <svg
+                      class="w-5 h-5 text-green-600"
+                      fill="currentColor"
+                      viewbox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      /></svg
+                    ><strong>Specialization:</strong> C,C++, Python, Data
+                    Structures and Algorithm , Database Management.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Student Photo Grid -->
+            <div class="mt-10 pt-8 border-t border-gray-200">
+              <h4 class="text-center text-gray-600 font-semibold mb-4">
+                Join Our Community of Successful Students
+              </h4>
+              <div class="student-grid max-w-md mx-auto">
+                <div class="student-avatar">👨</div>
+                <div class="student-avatar">👩</div>
+                <div class="student-avatar">👨</div>
+                <div class="student-avatar">👩</div>
+                <div class="student-avatar">👨</div>
+                <div class="student-avatar">👩</div>
+                <div class="student-avatar">👨</div>
+                <div class="student-avatar">👩</div>
+                <div class="student-avatar">👨</div>
+                <div class="student-avatar">👩</div>
+                <div class="student-avatar">👨</div>
+                <div class="student-avatar">👩</div>
+              </div>
+              <p class="text-center text-sm text-gray-500 mt-4">
+                Photos shown with student permission
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Batch Schedule Section -->
+      <section id="schedule" class="section-spacing bg-white">
+        <div class="max-w-6xl mx-auto">
+          <div class="text-center mb-12">
+            <div
+              class="inline-flex items-center bg-cyan-100 px-4 py-2 rounded-full text-sm font-bold text-cyan-700 mb-4"
+            >
+              <svg class="w-4 h-4 mr-2" fill="currentColor" viewbox="0 0 20 20">
+                <path
+                  fill-rule="evenodd"
+                  d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              BATCH SCHEDULE
+            </div>
+            <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+              Choose Your Time Slot
+            </h2>
+            <p class="text-gray-600 text-lg">
+              Select a batch that fits your schedule • Limited seats per batch
+            </p>
+          </div>
+          <div class="schedule-table">
+            <div class="schedule-grid">
+              <!-- Header Row -->
+              <div class="schedule-header">Day / Time</div>
+              <div class="schedule-header">Monday</div>
+              <div class="schedule-header">Tuesday</div>
+              <div class="schedule-header">Wednesday</div>
+              <div class="schedule-header">Thursday</div>
+              <div class="schedule-header">Friday</div>
+              <div class="schedule-header">Saturday</div>
+              <!-- Weekday Batch Row -->
+              <div class="schedule-time">11th Batch</div>
+              <div class="schedule-cell">
+                <div id="weekdayTiming1">6:00 PM - 7:00 PM</div>
+                <button class="join-btn" onclick="joinBatch('Monday 6-7 PM')">
+                  JOIN
+                </button>
+              </div>
+              <div class="schedule-cell" style="background: #f3f4f6">
+                <div style="color: #9ca3af">-</div>
+              </div>
+              <div class="schedule-cell">
+                <div id="weekdayTiming3">6:00 PM - 7:00 PM</div>
+                <button
+                  class="join-btn"
+                  onclick="joinBatch('Wednesday 6-7 PM')"
+                >
+                  JOIN
+                </button>
+              </div>
+              <div class="schedule-cell" style="background: #f3f4f6">
+                <div style="color: #9ca3af">-</div>
+              </div>
+
+              <div class="schedule-cell">
+                <div id="weekdayTiming5">6:00 PM - 7:00 PM</div>
+                <button class="join-btn" onclick="joinBatch('Friday 6-7 PM')">
+                  JOIN
+                </button>
+              </div>
+              <div class="schedule-cell" style="background: #f3f4f6">
+                <div style="color: #9ca3af">-</div>
+              </div>
+              <!-- Weekend Batch Row -->
+              <div class="schedule-time">12th Batch</div>
+              <div class="schedule-cell" style="background: #f3f4f6">
+                <div style="color: #9ca3af">-</div>
+              </div>
+              <div class="schedule-cell">
+                <div id="weekdayTiming2">6:00 PM - 7:00 PM</div>
+                <button class="join-btn" onclick="joinBatch('Tuesday 6-7 PM')">
+                  JOIN
+                </button>
+              </div>
+              <div class="schedule-cell" style="background: #f3f4f6">
+                <div style="color: #9ca3af">-</div>
+              </div>
+              <div class="schedule-cell">
+                <div id="weekdayTiming4">6:00 PM - 7:00 PM</div>
+                <button class="join-btn" onclick="joinBatch('Thursday 6-7 PM')">
+                  JOIN
+                </button>
+              </div>
+              <div class="schedule-cell" style="background: #f3f4f6">
+                <div style="color: #9ca3af">-</div>
+              </div>
+              <div class="schedule-cell">
+                <div id="weekdayTiming4">6:00 PM - 7:00 PM</div>
+                <button class="join-btn" onclick="joinBatch('Saturday 6-7 PM')">
+                  JOIN
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mt-8 bg-gradient-to-r from-cyan-50 to-purple-50 border-l-4 border-cyan-500 p-6 rounded-lg"
+          >
+            <p class="text-gray-700">
+              <strong class="text-cyan-700">📌 Note:</strong> Each batch is
+              limited to 15 students maximum. Click "JOIN" to reserve your spot
+              via WhatsApp!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Results & Proof Section -->
+      <section
+        id="results"
+        class="section-spacing bg-gradient-to-b from-gray-50 to-white"
+      >
+        <div class="max-w-5xl mx-auto">
+          <div class="text-center mb-12">
+            <div
+              class="inline-flex items-center bg-green-100 px-4 py-2 rounded-full text-sm font-bold text-green-700 mb-4"
+            >
+              <svg class="w-4 h-4 mr-2" fill="currentColor" viewbox="0 0 20 20">
+                <path
+                  fill-rule="evenodd"
+                  d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              PROVEN RESULTS
+            </div>
+            <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+              Real Students, Real Success
+            </h2>
+            <p class="text-gray-600 text-lg">
+              Before &amp; After Board Marks Transformation
+            </p>
+          </div>
+          <!-- Results Table -->
+          <div class="mb-12 overflow-x-auto">
+            <table class="results-table">
+              <thead>
+                <tr>
+                  <th>Student Name</th>
+                  <th>Class</th>
+                  <th>Marks</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="font-semibold">Amit Sharma</td>
+                  <td>Class 12, CBSE</td>
+                  <td><span class="mark-after">95%</span></td>
+                </tr>
+                <tr>
+                  <td class="font-semibold">Amit Sharma</td>
+                  <td>Class 12, CBSE</td>
+                  <td><span class="mark-after">95%</span></td>
+                </tr>
+                <tr>
+                  <td class="font-semibold">Amit Sharma</td>
+                  <td>Class 12, CBSE</td>
+                  <td><span class="mark-after">95%</span></td>
+                </tr>
+                <tr>
+                  <td class="font-semibold">Amit Sharma</td>
+                  <td>Class 12, CBSE</td>
+                  <td><span class="mark-after">95%</span></td>
+                </tr>
+                <tr>
+                  <td class="font-semibold">Amit Sharma</td>
+                  <td>Class 12, CBSE</td>
+                  <td><span class="mark-after">95%</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Payment Proof Section -->
+          <div class="bg-white rounded-2xl p-8 shadow-xl">
+            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
+              Payment &amp; Enrollment Proof
+            </h3>
+            <div class="grid md:grid-cols-2 gap-6">
+              <!-- Blurred Receipt Mock -->
+              <div
+                class="proof-blur bg-gray-100 rounded-lg p-6 border-2 border-gray-300"
+              >
+                <div class="bg-white rounded p-4 mb-4">
+                  <div class="flex justify-between mb-2">
+                    <span class="font-bold">Receipt #12345</span>
+                    <span>Date: 15/01/2024</span>
+                  </div>
+                  <div class="border-t border-b border-gray-300 py-2 my-2">
+                    <p>Student Name: Amit Kumar</p>
+                    <p>Class: 12 CS</p>
+                    <p>Batch: Weekday 4-7 PM</p>
+                  </div>
+                  <div class="text-right font-bold text-xl">₹12,000</div>
+                </div>
+                <p class="text-xs text-center text-gray-600">
+                  Sample receipt (privacy protected)
+                </p>
+              </div>
+              <div
+                class="flex flex-col justify-center items-center bg-gradient-to-br from-cyan-50 to-purple-50 rounded-lg p-8"
+              >
+                <div class="text-6xl mb-4">✅</div>
+                <h4 class="text-xl font-bold text-gray-800 mb-2">
+                  200+ Students Enrolled
+                </h4>
+                <p class="text-gray-600 text-center mb-4">
+                  Join our growing community of successful CS students from your
+                  local area
+                </p>
+                <div class="text-sm text-gray-500 text-center">
+                  <p>✓ Verified enrollments</p>
+                  <p>✓ Real student testimonials</p>
+                  <p>✓ Transparent fee structure</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Courses Section -->
+      <section id="courses" class="section-spacing bg-gray-50">
+        <div class="max-w-5xl mx-auto">
+          <div class="text-center mb-12">
+            <div
+              class="inline-flex items-center bg-blue-100 px-4 py-2 rounded-full text-sm font-bold text-blue-700 mb-4"
+            >
+              <svg class="w-4 h-4 mr-2" fill="currentColor" viewbox="0 0 20 20">
+                <path
+                  d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"
+                />
+              </svg>
+              OUR COURSES
+            </div>
+            <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+              Choose Your Path to Success
+            </h2>
+            <p class="text-gray-600 text-lg">
+              Class 11 &amp; 12 | Board-oriented curriculum
+            </p>
+          </div>
+          <div class="grid md:grid-cols-2 gap-8">
+            <!-- Computer Science -->
+            <div
+              class="tech-card bg-white rounded-2xl p-8 shadow-xl overflow-hidden"
+            >
+              <div class="flex items-center mb-6">
+                <div
+                  class="w-16 h-16 bg-gradient-to-br from-purple-100 to-blue-100 rounded-xl flex items-center justify-center mr-4 flex-shrink-0"
+                >
+                  <svg
+                    class="w-10 h-10"
+                    viewbox="0 0 60 60"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="8"
+                      y="12"
+                      width="44"
+                      height="30"
+                      rx="2"
+                      stroke="#8b5cf6"
+                      stroke-width="2.5"
+                      fill="#e0e7ff"
+                    />
+                    <text
+                      x="30"
+                      y="30"
+                      font-family="monospace"
+                      font-size="12"
+                      fill="#8b5cf6"
+                      text-anchor="middle"
+                      font-weight="bold"
+                    >
+                      &lt;/&gt;
+                    </text>
+                    <rect x="22" y="42" width="16" height="2" fill="#8b5cf6" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 id="csTitle" class="text-2xl font-bold text-gray-800">
+                    Computer Science
+                  </h3>
+                </div>
+              </div>
+              <div class="space-y-3 mb-6">
+                <div class="flex items-start">
+                  <div
+                    class="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0"
+                  >
+                    <svg
+                      class="w-4 h-4 text-purple-600"
+                      fill="currentColor"
+                      viewbox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-gray-700 font-medium"
+                    >C++ Programming (OOP, Data Structures)</span
+                  >
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0"
+                  >
+                    <svg
+                      class="w-4 h-4 text-purple-600"
+                      fill="currentColor"
+                      viewbox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-gray-700 font-medium"
+                    >Database Management (SQL, MySQL)</span
+                  >
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0"
+                  >
+                    <svg
+                      class="w-4 h-4 text-purple-600"
+                      fill="currentColor"
+                      viewbox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-gray-700 font-medium"
+                    >Computer Networks &amp; Internet Concepts</span
+                  >
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0"
+                  >
+                    <svg
+                      class="w-4 h-4 text-purple-600"
+                      fill="currentColor"
+                      viewbox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-gray-700 font-medium"
+                    >Boolean Algebra &amp; Logic Gates</span
+                  >
+                </div>
+              </div>
+              <div class="pt-4 border-t border-gray-200">
+                <span
+                  class="inline-flex items-center text-sm font-semibold text-purple-600"
+                >
+                  <svg
+                    class="w-4 h-4 mr-1"
+                    fill="currentColor"
+                    viewbox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Perfect for Engineering aspirants
+                </span>
+              </div>
+            </div>
+            <!-- Informatics Practices -->
+            <div
+              class="tech-card bg-white rounded-2xl p-8 shadow-xl overflow-hidden"
+            >
+              <div class="flex items-center mb-6">
+                <div
+                  class="w-16 h-16 bg-gradient-to-br from-green-100 to-emerald-100 rounded-xl flex items-center justify-center mr-4 flex-shrink-0"
+                >
+                  <svg
+                    class="w-10 h-10"
+                    viewbox="0 0 60 60"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="30"
+                      cy="18"
+                      r="7"
+                      fill="#10b981"
+                      opacity="0.3"
+                    />
+                    <circle
+                      cx="16"
+                      cy="36"
+                      r="7"
+                      fill="#10b981"
+                      opacity="0.3"
+                    />
+                    <circle
+                      cx="44"
+                      cy="36"
+                      r="7"
+                      fill="#10b981"
+                      opacity="0.3"
+                    />
+                    <line
+                      x1="30"
+                      y1="25"
+                      x2="21"
+                      y2="31"
+                      stroke="#10b981"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                    />
+                    <line
+                      x1="30"
+                      y1="25"
+                      x2="39"
+                      y2="31"
+                      stroke="#10b981"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 id="ipTitle" class="text-2xl font-bold text-gray-800">
+                    Informatics Practices
+                  </h3>
+                </div>
+              </div>
+              <div class="space-y-3 mb-6">
+                <div class="flex items-start">
+                  <div
+                    class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0"
+                  >
+                    <svg
+                      class="w-4 h-4 text-green-600"
+                      fill="currentColor"
+                      viewbox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-gray-700 font-medium"
+                    >Python Programming with NumPy/Pandas</span
+                  >
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0"
+                  >
+                    <svg
+                      class="w-4 h-4 text-green-600"
+                      fill="currentColor"
+                      viewbox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-gray-700 font-medium"
+                    >Database Management with MySQL</span
+                  >
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0"
+                  >
+                    <svg
+                      class="w-4 h-4 text-green-600"
+                      fill="currentColor"
+                      viewbox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-gray-700 font-medium"
+                    >Data Visualization &amp; Analysis</span
+                  >
+                </div>
+                <div class="flex items-start">
+                  <div
+                    class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3 mt-0.5 flex-shrink-0"
+                  >
+                    <svg
+                      class="w-4 h-4 text-green-600"
+                      fill="currentColor"
+                      viewbox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <span class="text-gray-700 font-medium"
+                    >MS Office Tools &amp; Practical Applications</span
+                  >
+                </div>
+              </div>
+              <div class="pt-4 border-t border-gray-200">
+                <span
+                  class="inline-flex items-center text-sm font-semibold text-green-600"
+                >
+                  <svg
+                    class="w-4 h-4 mr-1"
+                    fill="currentColor"
+                    viewbox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Ideal for Data Science careers
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials -->
+      <section
+        id="testimonials"
+        class="section-spacing bg-gradient-to-b from-white to-gray-50"
+      >
+        <div class="max-w-5xl mx-auto">
+          <div class="text-center mb-12">
+            <div
+              class="inline-flex items-center bg-emerald-100 px-4 py-2 rounded-full text-sm font-bold text-emerald-700 mb-4"
+            >
+              <svg class="w-4 h-4 mr-2" fill="currentColor" viewbox="0 0 20 20">
+                <path
+                  fill-rule="evenodd"
+                  d="M18 13V5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h3l3 3 3-3h3a2 2 0 002-2zM5 7a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm1 3a1 1 0 100 2h3a1 1 0 100-2H6z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              TESTIMONIALS
+            </div>
+            <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+              Success Stories
+            </h2>
+            <p class="text-gray-600 text-lg">
+              What our students &amp; parents say
+            </p>
+          </div>
+          <div class="grid md:grid-cols-3 gap-8">
+            <div
+              class="tech-card bg-white p-8 rounded-2xl shadow-xl relative pl-8"
+            >
+              <div
+                class="absolute top-6 left-6 text-6xl text-purple-200 opacity-30"
+              >
+                "
+              </div>
+              <div class="mb-6 relative z-10">
+                <div class="flex items-center mb-4">
+                  <div
+                    class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg mr-3"
+                  >
+                    P
+                  </div>
+                  <div class="flex text-yellow-400">
+                    <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span
+                    ><span>⭐</span>
+                  </div>
+                </div>
+              </div>
+              <p
+                id="testimonial1Text"
+                class="text-gray-700 mb-6 leading-relaxed relative z-10"
+              >
+                "The teaching method is excellent. I scored 98% in Computer
+                Science boards. Thank you sir!"
+              </p>
+              <p
+                id="testimonial1Name"
+                class="font-bold text-gray-800 relative z-10"
+              >
+                — Priya Sharma, Class 12, CBSE
+              </p>
+            </div>
+            <div
+              class="tech-card bg-white p-8 rounded-2xl shadow-xl relative pl-8"
+            >
+              <div
+                class="absolute top-6 left-6 text-6xl text-cyan-200 opacity-30"
+              >
+                "
+              </div>
+              <div class="mb-6 relative z-10">
+                <div class="flex items-center mb-4">
+                  <div
+                    class="w-12 h-12 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg mr-3"
+                  >
+                    R
+                  </div>
+                  <div class="flex text-yellow-400">
+                    <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span
+                    ><span>⭐</span>
+                  </div>
+                </div>
+              </div>
+              <p
+                id="testimonial2Text"
+                class="text-gray-700 mb-6 leading-relaxed relative z-10"
+              >
+                "Small batches helped my son get individual attention. His
+                programming skills improved dramatically."
+              </p>
+              <p
+                id="testimonial2Name"
+                class="font-bold text-gray-800 relative z-10"
+              >
+                — Mr. Rajesh Kumar, Parent
+              </p>
+            </div>
+            <div
+              class="tech-card bg-white p-8 rounded-2xl shadow-xl relative pl-8"
+            >
+              <div
+                class="absolute top-6 left-6 text-6xl text-green-200 opacity-30"
+              >
+                "
+              </div>
+              <div class="mb-6 relative z-10">
+                <div class="flex items-center mb-4">
+                  <div
+                    class="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center text-white font-bold text-lg mr-3"
+                  >
+                    A
+                  </div>
+                  <div class="flex text-yellow-400">
+                    <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span
+                    ><span>⭐</span>
+                  </div>
+                </div>
+              </div>
+              <p
+                id="testimonial3Text"
+                class="text-gray-700 mb-6 leading-relaxed relative z-10"
+              >
+                "Practical sessions and doubt clearing made difficult topics
+                easy. Got admission in NIT!"
+              </p>
+              <p
+                id="testimonial3Name"
+                class="font-bold text-gray-800 relative z-10"
+              >
+                — Aman Singh, Class 12, HBSE
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section id="contact" class="section-spacing bg-gray-50">
+        <div class="max-w-5xl mx-auto">
+          <div class="text-center mb-12">
+            <div
+              class="inline-flex items-center bg-rose-100 px-4 py-2 rounded-full text-sm font-bold text-rose-700 mb-4"
+            >
+              <svg class="w-4 h-4 mr-2" fill="currentColor" viewbox="0 0 20 20">
+                <path
+                  fill-rule="evenodd"
+                  d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              GET IN TOUCH
+            </div>
+            <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+              Contact Us
+            </h2>
+            <p class="text-gray-600 text-lg">
+              We're here to answer your questions
+            </p>
+          </div>
+          <div class="bg-white rounded-2xl shadow-2xl overflow-hidden">
+            <div class="grid md:grid-cols-2 gap-0">
+              <div
+                class="bg-gradient-to-br from-cyan-600 to-purple-700 p-8 md:p-10 text-white"
+              >
+                <h3 class="text-2xl font-bold mb-6">Let's Connect</h3>
+                <div class="space-y-6">
+                  <div class="flex items-start">
+                    <div
+                      class="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
+                    >
+                      <span class="text-2xl">📞</span>
+                    </div>
+                    <div>
+                      <h4 class="font-bold mb-1 text-cyan-100">Phone</h4>
+                      <p id="contactPhone" class="text-white opacity-90">
+                        +91-XXXXX-XXXXX
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start">
+                    <div
+                      class="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
+                    >
+                      <span class="text-2xl">💬</span>
+                    </div>
+                    <div>
+                      <h4 class="font-bold mb-1 text-cyan-100">WhatsApp</h4>
+                      <p id="contactWhatsapp" class="text-white opacity-90">
+                        +91-XXXXX-XXXXX
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start">
+                    <div
+                      class="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
+                    >
+                      <span class="text-2xl">✉️</span>
+                    </div>
+                    <div>
+                      <h4 class="font-bold mb-1 text-cyan-100">Email</h4>
+                      <p
+                        id="contactEmail"
+                        class="text-white opacity-90 break-all"
+                      >
+                        info@csittuition.com
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start">
+                    <div
+                      class="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
+                    >
+                      <span class="text-2xl">📍</span>
+                    </div>
+                    <div>
+                      <h4 class="font-bold mb-1 text-cyan-100">Address</h4>
+                      <p id="contactAddress" class="text-white opacity-90">
+                        123 Education Lane, Your City, State - 123456
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="p-8 md:p-10 flex flex-col justify-center items-center bg-gradient-to-br from-gray-50 to-white"
+              >
+                <div class="text-center mb-6">
+                  <div
+                    class="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4"
+                  >
+                    <svg
+                      class="w-10 h-10 text-purple-600"
+                      fill="currentColor"
+                      viewbox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                    Visit Our Campus
+                  </h3>
+                  <p class="text-gray-600 mb-6">
+                    Come see our state-of-the-art facilities and meet our
+                    experienced faculty
+                  </p>
+                </div>
+                <a
+                  id="mapsLink"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center bg-gradient-to-r from-cyan-600 to-purple-600 text-white font-bold px-8 py-4 rounded-xl hover:from-cyan-700 hover:to-purple-700 transition-all transform hover:scale-105 shadow-lg"
+                >
+                  <svg
+                    class="w-5 h-5 mr-2"
+                    fill="currentColor"
+                    viewbox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                      clip-rule="evenodd"
+                    /></svg
+                  ><span>View on Google Maps</span>
+                </a>
+                <div class="mt-8 pt-8 border-t border-gray-200 w-full">
+                  <p class="text-center text-gray-600 text-sm">
+                    <strong class="text-gray-800">Office Hours:</strong>
+                    Mon-Sat: 9:00 AM - 7:00 PM
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer class="gradient-bg text-white py-6">
+        <div class="max-w-4xl mx-auto text-center px-4">
+          <p class="mb-2">© 2024 Future Achievers . All rights reserved.</p>
+          <p id="footerText" class="text-sm opacity-80">
+            Empowering students with technology education
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!-- Floating WhatsApp Button -->
+    <a
+      id="whatsappFloat"
+      href="https://wa.me/919868817472"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-float"
+    >
+      <svg ...></svg>
+      <span>Chat to Reserve Seat</span>
+    </a>
+    <!-- Exit Intent Popup -->
+    <div id="exitPopup" class="exit-popup">
+      <div class="exit-popup-content">
+        <button class="close-popup" onclick="closeExitPopup()">×</button>
+        <div class="text-center">
+          <div class="text-6xl mb-4">🎁</div>
+          <h3 class="text-3xl font-bold text-gray-800 mb-3">
+            Wait! Don't Miss This!
+          </h3>
+          <p class="text-lg text-gray-600 mb-6">
+            Get a
+            <strong class="text-cyan-600">FREE Python Cheatsheet</strong> +
+            <strong class="text-purple-600">Demo Class Slot</strong>
+          </p>
+          <div
+            class="bg-gradient-to-r from-cyan-50 to-purple-50 rounded-lg p-6 mb-6"
+          >
+            <div class="space-y-4">
+              <div class="flex items-center justify-center gap-2">
+                <svg
+                  class="w-6 h-6 text-green-600"
+                  fill="currentColor"
+                  viewbox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  /></svg
+                ><span class="font-semibold"
+                  >Comprehensive Python syntax guide</span
+                >
+              </div>
+              <div class="flex items-center justify-center gap-2">
+                <svg
+                  class="w-6 h-6 text-green-600"
+                  fill="currentColor"
+                  viewbox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  /></svg
+                ><span class="font-semibold">Attend 1 FREE demo class</span>
+              </div>
+              <div class="flex items-center justify-center gap-2">
+                <svg
+                  class="w-6 h-6 text-green-600"
+                  fill="currentColor"
+                  viewbox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
+                  /></svg
+                ><span class="font-semibold">Meet our expert instructor</span>
+              </div>
+            </div>
+          </div>
+          <p class="text-gray-700 font-semibold mb-4">
+            Send us a WhatsApp message to claim your gifts!
+          </p>
+          <a
+            id="exitWhatsappBtn"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center bg-gradient-to-r from-cyan-600 to-purple-600 text-white font-bold px-8 py-4 rounded-xl text-lg hover:from-cyan-700 hover:to-purple-700 transition-all transform hover:scale-105 shadow-xl"
+          >
+            <svg class="w-6 h-6 mr-2" fill="currentColor" viewbox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+              /></svg
+            ><span>Get Free Resources on WhatsApp</span>
+          </a>
+          <p class="text-xs text-gray-500 mt-4">
+            Limited time offer • No spam, just valuable resources!
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
